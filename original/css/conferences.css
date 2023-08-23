@@ -29,108 +29,123 @@ body
    background-color: #003CA6;
    background-image: none;
 }
-#dancesLayer2
+#searchLayer1
 {
    background-color: transparent;
-   background-image: url(images/dances_dancesLayer2_bkgrnd.png);
-   background-repeat: repeat-x;
-   background-position: left top;
+   background-image: url(images/Title.jpg);
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   background-attachment: scroll;
+   background-size: cover;
 }
-#wb_dancesText1 
+#conferencesLayer1
 {
-   background-color: transparent;
+   background-color: #003CA6;
    background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 10px 0px 0px 0px;
-   text-align: center;
 }
-#wb_dancesText1
-{
-   color: #000000;
-   font-family: Oswald;
-   font-weight: normal;
-   font-size: 24px;
-   line-height: 1px;
-}
-#wb_dancesText1 p, #wb_dancesText1 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_dancesText2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_dancesText2 div
-{
-   text-align: center;
-}
-#wb_dancesText4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_dancesText4 div
-{
-   text-align: center;
-}
-#wb_dancesText3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_dancesText3 div
-{
-   text-align: center;
-}
-#wb_dancesShape7
+#wb_conferencesShape1
 {
    transform: rotate(0deg);
    transform-origin: 50% 50%;
 }
-#dancesShape7
+#conferencesShape1
 {
    border-width: 0;
    vertical-align: top;
 }
-#dancesLayer1
+#wb_conferencesText1 
 {
-   background-color: #C0C0C0;
+   background-color: transparent;
    background-image: none;
-}
-#wb_dancesImage1
-{
-   vertical-align: top;
-}
-#dancesImage1
-{
    border: 0px solid #000000;
    padding: 0;
    margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+   text-align: center;
 }
-#wb_dancesImage3
+#wb_conferencesText1 div
+{
+   text-align: center;
+}
+#wb_conferencesTextArt1
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#conferencesTextArt1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_conferencesText2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_conferencesText2 div
+{
+   text-align: center;
+}
+#wb_conferencesText3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_conferencesText3 div
+{
+   text-align: center;
+}
+#wb_conferencesText4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_conferencesText4 div
+{
+   text-align: center;
+}
+#wb_conferencesText5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_conferencesText5 div
+{
+   text-align: center;
+}
+#wb_conferencesText6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_conferencesText6 div
+{
+   text-align: center;
+}
+#wb_conferencesImage1
 {
    vertical-align: top;
 }
-#dancesImage3
+#conferencesImage1
 {
    border: 0px solid #000000;
    padding: 0;
@@ -255,6 +270,7 @@ body
    background-image: url(images/GrayBackground.jpg);
    background-repeat: no-repeat;
    background-position: left top;
+   background-attachment: scroll;
    background-size: cover;
 }
 #wb_mainframeImage2
@@ -364,4 +380,16 @@ body
 {
    margin: 0;
    padding: 0;
+}
+@media only screen and (max-width: 1199px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
 }
