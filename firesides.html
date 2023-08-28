@@ -39,7 +39,7 @@
     }
   </script>
 </head>
-<body class="font-poppins">
+<body id="top" class="font-poppins">
     <header class="py-8 bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center text-white font-bold">
         <div class="container mx-auto relative flex items-center justify-center">
             <a href="./index.html" class="absolute left-0 text-3xl font-bold tracking-wider hover:bg-cyan-600 rounded p-1 transition duration-300 ease-in-out">
@@ -73,7 +73,14 @@
         </nav>
     </div>
 
-    <main class="mx-auto pt-4 md:pt-8 flex flex-col items-center justify-center bg-cyan-100/70">
+    <!-- PAGE NAVIGATION -->
+    <nav class="container mx-auto text-2xl font-bold w-full py-8 flex items-center justify-center space-x-6 2xl:text-4xl 2xl:pt-12">
+        <a href="#details" class="smooth-scroll px-4 py-2 rounded-lg bg-sky-200 hover:bg-sky-100">Details</a>
+        <a href="#upcoming" class="smooth-scroll px-4 py-2 rounded-lg bg-violet-200 hover:bg-violet-100">Upcoming Firesides</a>
+        <a href="#past" class="smooth-scroll px-4 py-2 rounded-lg bg-yellow-200 hover:bg-yellow-100">Past Firesides</a>
+    </nav>
+
+    <main id="details" class="mx-auto pt-4 md:pt-8 flex flex-col items-center justify-center bg-cyan-100/70">
         <div class="pt-8 container mx-auto flex flex-col items-center justify-center text-center space-y-12 px-4">
             <h2 class="text-4xl font-bold lg:text-6xl">Monthly Firesides</h2> 
             <section class="border border-2 p-6 shadow-lg rounded-lg border-black bg-gradient-to-b from-sky-300/50 to-cyan-200 font-medium text-xl flex flex-col items-center justify-center space-y-3">
@@ -121,7 +128,7 @@
         </div>
 
         <!-- UPCOMING FLYERS -->
-        <div class="w-full bg-gradient-to-b from-cyan-500 to-blue-500 pb-20 mt-12">
+        <div id="upcoming" class="w-full bg-gradient-to-b from-cyan-500 to-blue-500 pb-20 mt-12">
             <div class="container mx-auto">
                 <section class="flex flex-col items-center justify-center space-y-12 w-full pt-8 md:pt-12 px-4">
                     <h3 class="font-bold text-4xl xl:text-5xl text-white text-center">Upcoming Firesides</h3>
@@ -135,7 +142,7 @@
         </div>
 
         <!-- VIDEOS OF PAST FIRESIDES -->
-        <div class="w-full bg-white border-t-8 border-blue-700 pb-24 md:pb-32">
+        <div id="past" class="w-full bg-white border-t-8 border-blue-700 pb-24 md:pb-32">
             <div class="container mx-auto">
                 <section class="flex flex-col items-center justify-center space-y-3 w-full  pt-8 md:pt-12">
                     <a href="https://www.youtube.com/channel/UCpC15i3QAukk5gtGDG1N67Q" 
@@ -156,19 +163,22 @@
 
                     <div class="flex flex-col items-center justify-center space-y-12">
 
-                        <div class="flex flex-col items-center justify-center space-y-3">
-                            <a href="https://www.youtube.com/live/VKsOhTtu8ZM?si=rqNKK63rUhnzzKdM" target="_blank" rel="noopener noreferrer nofollow"
-                                class="font-bold hover:text-cyan-600 md:text-3xl"
-                                >Dr. David Morgan - 27 Aug 2023</a>
-                            <iframe width="560" height="315" 
-                                src="https://www.youtube.com/embed/VKsOhTtu8ZM?si=rqNKK63rUhnzzKdM" 
-                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
-                                class="rounded-lg shadow-lg"
-                                ></iframe>
-                        </div>
-
-                        <div class="flex flex-col items-center justify-center space-y-12 bg-teal-100 p-6">
-                            <h3 class="font-bold text-3xl">Shared by Dr. Morgan</h3>
+                        <div class="flex flex-col items-center justify-center space-y-6 bg-teal-100 p-12">
+                            <h3 class="font-bold text-3xl">Shared by Dr. Morgan - 27 Aug 2023</h3>
+                            <div class="text-xl px-4 flex flex-col items-start justify-start space-y-3">
+                                <p>
+                                Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:</p>
+                                <p>
+                                By whom also we have access by faith into this grace wherein we stand, and rejoice in hope of the glory of God.</p>
+                                <p>   
+                                And not only so, but we glory in tribulations also: knowing that <span class="font-bold text-blue-500">tribulation worketh patience</span>;</p>
+                                <p>   
+                                And <span class="font-bold text-blue-500">patience, experience</span>; and <span class="font-bold text-blue-500">experience, hope</span>.</p>
+                                <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/rom/5?lang=eng" 
+                                    class="text-right text-lg hover:text-blue-800 pr-16 block self-end align-end"
+                                    target="_blank" rel="noopener noreferrer nofollow"
+                                >- Romans 5:1-4</a>
+                            </div>
                             <div class="flex flex-col items-center justify-center space-y-3">
                                 <a href="https://youtu.be/-DIIgm6xABQ?si=GBEnjuT9M1bAYobB" target="_blank" rel="noopener noreferrer nofollow"
                                     class="font-bold hover:text-cyan-600 md:text-3xl text-center"
@@ -183,16 +193,16 @@
                             <div class="flex flex-col items-start justify-start px-4 leading-loose">
                                 <p class="text-xl lg:max-w-4xl mx-auto px-4 pb-6">
                                     With apologies to Elder Neal A. Maxwell for daring to modify and enlarge something he once said,
-                                     I too suggest that <span class="font-semibold">“one's life … cannot be both faith-filled and stress-free.”</span> </p>
+                                     I too suggest that <span class="font-semibold text-blue-500">“one's life … cannot be both faith-filled and stress-free.”</span> </p>
                                 
                                      <img src="./images/lemonade.png" alt="lemonade" class="w-48 mx-auto rounded shadow-lg mb-6" />
 
                                 <p class="text-xl lg:max-w-4xl mx-auto px-4 pb-6">     
-                                    It simply will <span class="font-semibold">not work</span> “to glide naively through life,” 
+                                    It simply will <span class="font-semibold text-blue-500">not work</span> “to glide naively through life,” 
                                     saying as we sip another glass of lemonade, 
                                     “Lord, give me all thy choicest virtues, but be certain not to give me grief, nor sorrow, nor pain, nor opposition. 
                                     Please do not let anyone dislike me or betray me, and above all, do not ever let me feel forsaken by Thee or those I love. 
-                                    <span class="font-semibold">In fact, Lord, be careful to keep me from all the experiences that made Thee divine.</span> 
+                                    <span class="font-semibold text-blue-500">In fact, Lord, be careful to keep me from all the experiences that made Thee divine.</span> 
                                     And then, when the rough sledding by everyone else is over, please let me come and dwell with Thee, 
                                     where I can boast about how similar our strengths and our characters are as I float along on my cloud of comfortable Christianity.”
                                 </p>
@@ -201,7 +211,7 @@
                                 <p class="text-xl lg:max-w-4xl mx-auto px-4 pb-2">
                                     My beloved brothers and sisters, Christianity is comforting, but it is often not comfortable. 
                                     The path to holiness and happiness here and hereafter is a long and sometimes rocky one. 
-                                    It takes time and tenacity to walk it. <span class="font-semibold">But, of course, the reward for doing so is monumental.</span></p>
+                                    It takes time and tenacity to walk it. <span class="font-semibold text-blue-500">But, of course, the reward for doing so is monumental.</span></p>
                                 </p>
 
                                 <a href="https://www.churchofjesuschrist.org/study/general-conference/2020/10/57holland?lang=eng"
@@ -247,6 +257,10 @@
                     </div>
                 </section>
             </div>
+            <a href="#top" class="smooth-scroll flex items-center justify-center text-center space-x-2 group text-base md:text-3xl lg:text-lg pt-8">
+                <span class="hover:text-blue-700">Back to top</span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/></svg> 
+            </a>
         </div>
     </main>
     
@@ -277,6 +291,23 @@
         <p class="text-white text-xs">© <span id="current-year">2023</span> Utah County Single Adults</p>
     </footer>
     <script>
+        // Add smooth scroll to anchor links
+        const links = document.querySelectorAll("a.smooth-scroll")
+        for (const link of links) {
+            link.addEventListener("click", linkClickHandler)
+        }
+
+        function linkClickHandler(e) {
+            e.preventDefault()
+            const href = this.getAttribute("href")
+            const section = document.querySelector(href)
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+            scroll({
+            top: (section.getBoundingClientRect().top + scrollTop) - 220,
+            behavior: "smooth"
+            })
+        }
+
         const currentYearSpan = document.getElementById('current-year')
         currentYearSpan.textContent = new Date().getFullYear()
     </script>
