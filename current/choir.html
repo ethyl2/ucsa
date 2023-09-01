@@ -266,21 +266,21 @@
     </footer>
     <script>
         // Add smooth scroll to anchor links
-      const links = document.querySelectorAll("a.smooth-scroll")
-      for (const link of links) {
-        link.addEventListener("click", linkClickHandler)
-      }
+        const links = document.querySelectorAll("a.smooth-scroll")
+        for (const link of links) {
+            link.addEventListener("click", linkClickHandler)
+        }
 
-      function linkClickHandler(e) {
-        e.preventDefault()
-        const href = this.getAttribute("href")
-        const section = document.querySelector(href)
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop
-        scroll({
-          top: (section.getBoundingClientRect().top + scrollTop) - 220,
-          behavior: "smooth"
-        })
-      }
+        function linkClickHandler(e) {
+            e.preventDefault()
+            const href = this.getAttribute("href")
+            const section = document.querySelector(href)
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+            scroll({
+            top: (section.getBoundingClientRect().top + scrollTop) - 220,
+            behavior: "smooth"
+            })
+        }
         const currentYearSpan = document.getElementById('current-year')
         currentYearSpan.textContent = new Date().getFullYear()
     </script>
