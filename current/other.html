@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,12 +76,13 @@
 
     <!-- PAGE NAVIGATION -->
     <div class="sticky top-0 lg:-top-8 w-full bg-white">
-        <nav class="lg:container pl-48 sm:pl-0 mx-auto text-sm sm:text-base md:text-2xl font-bold w-full py-3 text-center md:py-8 flex items-stretch justify-center space-x-2 lg:space-x-6 2xl:text-3xl 2xl:pt-12 overflow-x-auto" role="menu">
+        <nav class="lg:container pl-72 sm:pl-20 md:pl-32 lg:pl-0 mx-auto text-sm sm:text-base md:text-2xl font-bold w-full py-3 text-center md:py-8 flex items-stretch justify-center space-x-2 lg:space-x-6 2xl:text-3xl 2xl:pt-12 overflow-x-auto" role="menu">
             <a role="menuitem" href="#temple-mornings" class="smooth-scroll px-4 py-2 rounded-lg bg-sky-200 hover:bg-sky-100 flex items-center justify-center">Temple Mornings</a>
             <a role="menuitem" href="#service" class="smooth-scroll px-4 py-2 rounded-lg bg-violet-200 hover:bg-violet-100 flex items-center justify-center">Service Opportunity</a>
             <a role="menuitem" href="#conference" class="smooth-scroll px-4 py-2 rounded-lg bg-yellow-200 hover:bg-yellow-100 flex items-center justify-center">
                 <p>General Conference Watch <span class="hidden sm:inline">& Potluck</span></p>
             </a>
+            <a role="menuitem" href="#game-night" class="smooth-scroll px-4 py-2 rounded-lg bg-orange-100 hover:bg-yellow-100 flex items-center justify-center">Game Night</a>
             <a role="menuitem" href="#pie-night" class="smooth-scroll px-4 py-2 rounded-lg bg-orange-200 hover:bg-yellow-100 flex items-center justify-center">Annual Pie Night</a>
             <a role="menuitem" href="#christmas" class="smooth-scroll px-4 py-2 rounded-lg bg-green-200 hover:bg-green-100 flex items-center justify-center">
                 <p>Christmas Devotional Watch <span class="hidden sm:inline">& Potluck</span></p>
@@ -94,12 +95,14 @@
             
             <!-- TEMPLE FLYER -->
             <div id="temple-mornings" class="flex items-center justify-center px-4 w-full">
-                <img src="./images/payson-temple-activity.jpeg" alt="Payson Temple Activity" class="w-full lg:w-1/2 rounded-md shadow-md">
+                <img src="./images/payson-monthly-breakfast-and-sealings.jpg" alt="Payson Temple Activity" class="w-full lg:w-1/2 rounded-md shadow-md">
             </div>
 
-            <div class="text-lg sm:text-2xl mx-4 flex flex-col items-center justify-center md:text-xl xl:text-2xl space-y-2">
+            <div class="text-lg sm:text-xl mx-4 flex flex-col items-center justify-center space-y-3 md:space-y-6 max-w-lg mx-auto">
                 <p class="text-center">The Payson Coordinating Council brings a monthly Payson Temple opportunity to the Utah County Single Adults.</p>
-                <p class="text-center">An appointment for the group to do sealing work is already made with the temple.</p>
+                <p class="text-center">Join with other single adults for a heart-warming breakfast at the church located next to the Payson Temple, from <span class="text-blue-700 font-bold">8:15 -9:20 am</span>.</p>
+                <p class="text-center">Breakfast is followed by attending the Payson Temple together as a group to perform proxy sealings.
+                This group has reserved time at <span class="text-blue-700 font-bold">9 am</span> and <span class="text-blue-700 font-bold">10 am</span> to be in the temple.</p>
             </div>
 
             <!-- BREAKFAST MAP -->
@@ -109,15 +112,19 @@
             </div>  
         
             <iframe 
+                title="Breakfast Location Map"
                 class="sm:hidden border-8 border-cyan-400 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.5497279480032!2d-111.75093110177968!3d40.01850426597762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da5cdf9226e01%3A0x4786a54147c5aeac!2s952%201580%20S%2C%20Payson%2C%20UT%2084651!5e0!3m2!1sen!2sus!4v1693024859687!5m2!1sen!2sus" 
                 width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <iframe 
+                title="Breakfast Location Map"
                 class="hidden sm:block md:hidden border-8 border-cyan-400 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.5497279480032!2d-111.75093110177968!3d40.01850426597762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da5cdf9226e01%3A0x4786a54147c5aeac!2s952%201580%20S%2C%20Payson%2C%20UT%2084651!5e0!3m2!1sen!2sus!4v1693024859687!5m2!1sen!2sus" 
                 width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
-            <iframe class="hidden md:block border-8 border-cyan-400 rounded shadow-lg" 
+            <iframe 
+                class="hidden md:block border-8 border-cyan-400 rounded shadow-lg" 
+                title="Breakfast Location Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.5497279480032!2d-111.75093110177968!3d40.01850426597762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da5cdf9226e01%3A0x4786a54147c5aeac!2s952%201580%20S%2C%20Payson%2C%20UT%2084651!5e0!3m2!1sen!2sus!4v1693024859687!5m2!1sen!2sus" 
                 width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -130,15 +137,19 @@
             </div>
 
             <iframe 
+                title="Payson Temple Location Map"
                 class="sm:hidden border-8 border-cyan-300 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.4957873975336!2d-111.75210322400862!3d40.01970887150614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da5cd892606d7%3A0x2c5eef3937bc7cdc!2sPayson%20Utah%20Temple!5e0!3m2!1sen!2sus!4v1693024787703!5m2!1sen!2sus" 
                 width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <iframe 
+                title="Payson Temple Location Map"
                 class="hidden sm:block md:hidden border-8 border-cyan-300 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.4957873975336!2d-111.75210322400862!3d40.01970887150614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da5cd892606d7%3A0x2c5eef3937bc7cdc!2sPayson%20Utah%20Temple!5e0!3m2!1sen!2sus!4v1693024787703!5m2!1sen!2sus" 
                 width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
-            <iframe class="hidden md:block border-8 border-cyan-300 rounded shadow-lg" 
+            <iframe
+                title="Payson Temple Location Map" 
+                class="hidden md:block border-8 border-cyan-300 rounded shadow-lg" 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.4957873975336!2d-111.75210322400862!3d40.01970887150614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da5cd892606d7%3A0x2c5eef3937bc7cdc!2sPayson%20Utah%20Temple!5e0!3m2!1sen!2sus!4v1693024787703!5m2!1sen!2sus" 
                 width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -166,16 +177,20 @@
                     920 E State Rd, American Fork, UT 84003
                 </a>
                 
-                <iframe 
+                <iframe
+                    title="Helping Hands International Location Map" 
                     class="sm:hidden border-8 border-yellow-400 rounded shadow-lg"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.781383706112!2d-111.77534282335432!3d40.36937155851936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d819d12b56c33%3A0x24b188a776d5df08!2sLifting%20Hands%20International%20Utah%20Warehouse!5e0!3m2!1sen!2sus!4v1693181848496!5m2!1sen!2sus" 
                     width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <iframe 
+                    title="Helping Hands International Location Map" 
                     class="hidden sm:block md:hidden border-8 border-yellow-400 rounded shadow-lg"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.781383706112!2d-111.77534282335432!3d40.36937155851936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d819d12b56c33%3A0x24b188a776d5df08!2sLifting%20Hands%20International%20Utah%20Warehouse!5e0!3m2!1sen!2sus!4v1693181848496!5m2!1sen!2sus" 
                     width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
-                <iframe class="hidden md:block border-8 border-yellow-400 rounded shadow-lg" 
+                <iframe
+                    title="Helping Hands International Location Map"  
+                    class="hidden md:block border-8 border-yellow-400 rounded shadow-lg" 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.781383706112!2d-111.77534282335432!3d40.36937155851936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d819d12b56c33%3A0x24b188a776d5df08!2sLifting%20Hands%20International%20Utah%20Warehouse!5e0!3m2!1sen!2sus!4v1693181848496!5m2!1sen!2sus" 
                     width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -208,16 +223,20 @@
                 <img src="./images/conf-watch-schedule.png" alt="Conference Watch Schedule" class="w-full">
             </div>
 
-            <iframe 
+            <iframe
+                title="Conference Watch Location Map" 
                 class="sm:hidden border-8 border-yellow-500 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.543136847737!2d-111.879978!3d40.413911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fdcd772cc79%3A0x79002f1ae05f8eb2!2s2150%20Pointe%20Meadow%20Dr%2C%20Lehi%2C%20UT%2084043!5e0!3m2!1sen!2sus!4v1693604351338!5m2!1sen!2sus" 
                 width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <iframe 
+                title="Conference Watch Location Map" 
                 class="hidden sm:block md:hidden border-8 border-yellow-500 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.543136847737!2d-111.879978!3d40.413911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fdcd772cc79%3A0x79002f1ae05f8eb2!2s2150%20Pointe%20Meadow%20Dr%2C%20Lehi%2C%20UT%2084043!5e0!3m2!1sen!2sus!4v1693604351338!5m2!1sen!2sus" 
                 width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
-            <iframe class="hidden md:block border-8 border-yellow-500 rounded shadow-lg" 
+            <iframe
+                title="Conference Watch Location Map"  
+                class="hidden md:block border-8 border-yellow-500 rounded shadow-lg" 
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.543136847737!2d-111.879978!3d40.413911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fdcd772cc79%3A0x79002f1ae05f8eb2!2s2150%20Pointe%20Meadow%20Dr%2C%20Lehi%2C%20UT%2084043!5e0!3m2!1sen!2sus!4v1693604351338!5m2!1sen!2sus" 
                 width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -226,6 +245,39 @@
                 <div style="background-image: url('./images/sp-jesus_christ-GC-2023-official.jpeg');" class="shadow-lg w-80 sm:w-96 h-56 bg-center bg-no-repeat bg-cover lg:w-80 xl:w-96"></div>
                 <div style="background-image: url('./images/tab-choir.jpeg');" class="shadow-lg w-80 sm:w-96 h-56 bg-center bg-no-repeat bg-cover lg:rounded-r lg:w-80 xl:w-96"></div>
             </section> 
+        </section>
+
+        <!-- GAME NIGHT -->
+        <section id="game-night" class="w-full bg-yellow-200 py-12 flex flex-col items-center justify-center space-y-6 border-b-8 border-t-8 border-green-500">
+            <h2 class="font-extrabold text-3xl text-center md:text-5xl 2xl:text-7xl">Game Night</h2>
+            <div class="text-lg sm:text-2xl mx-4 flex flex-col items-center justify-center space-y-4 px-4">
+                <p class="text-center">The Payson Coordinating Council is hosting a game night for the Utah County Single Adults.</p>
+                <p class="text-center">Bring your favorite game and treat to share!</p>
+            </div>
+            <p class="text-center font-bold text-xl md:text-5xl lg:text-3xl xl:text-2xl text-blue-600">Saturday, Oct 21, 2023</p>
+            <img src="./images/payson-oct-game-night.jpg" alt="Game Night" class="px-4 md:px-0 md:w-1/2 rounded-md md:shadow-md border-8 border-green-500">
+
+            <!-- SALEM LOCATION -->
+            <a href="https://maps.app.goo.gl/xzAhd8vJgM9cmWc96" target="_blank" rel="noopener noreferrer" class="hover:text-blue-700 text-center text-lg md:text-2xl px-4">
+                470 E Salem Canal Rd, Salem, UT 84653
+            </a>
+
+            <iframe
+                title="Game Night Location Map" 
+                class="sm:hidden border-8 border-blue-500 rounded shadow-lg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.2254357990046!2d-111.66575952400721!3d40.04806977150127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874dbb2d6d279ed3%3A0x9338d9c3fd679f6f!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1696015463873!5m2!1sen!2sus" 
+                width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe 
+                title="Game Night Location Map" 
+                class="hidden sm:block md:hidden border-8 border-blue-500 rounded shadow-lg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.2254357990046!2d-111.66575952400721!3d40.04806977150127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874dbb2d6d279ed3%3A0x9338d9c3fd679f6f!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1696015463873!5m2!1sen!2sus" 
+                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <iframe
+                title="Game Night Location Map"  
+                class="hidden md:block border-8 border-blue-500 rounded shadow-lg" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.2254357990046!2d-111.66575952400721!3d40.04806977150127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874dbb2d6d279ed3%3A0x9338d9c3fd679f6f!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1696015463873!5m2!1sen!2sus" 
+                width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
         <!-- PIE NIGHT -->
@@ -239,16 +291,20 @@
             <img src="./images/pie-night.png" alt="Pie Night" class="w-48 sm:w-96 rounded-md shadow-md">
             <a href="https://goo.gl/maps/AKXCNNNyARn4SWRs7" target="_blank" rel="noopener noreferrer" class="hover:text-blue-700 text-center text-2xl md:text-4xl xl:text-2xl px-4">800 N 100 W, Pleasant Grove, UT 84062</a>
 
-            <iframe 
+            <iframe
+                title="Pie Night Location Map" 
                 class="sm:hidden border-8 border-yellow-900 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.637592087475!2d-111.74420312399124!3d40.3725594714468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d841ef19ffcdd%3A0x24e3de7aefb3dfd2!2s800%20N%20100%20W%2C%20Pleasant%20Grove%2C%20UT%2084062!5e0!3m2!1sen!2sus!4v1693109347635!5m2!1sen!2sus" 
                 width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <iframe 
+                title="Pie Night Location Map" 
                 class="hidden sm:block md:hidden border-8 border-yellow-900 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.637592087475!2d-111.74420312399124!3d40.3725594714468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d841ef19ffcdd%3A0x24e3de7aefb3dfd2!2s800%20N%20100%20W%2C%20Pleasant%20Grove%2C%20UT%2084062!5e0!3m2!1sen!2sus!4v1693109347635!5m2!1sen!2sus" 
                 width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
-            <iframe class="hidden md:block border-8 border-yellow-900 rounded shadow-lg" 
+            <iframe
+                title="Pie Night Location Map"  
+                class="hidden md:block border-8 border-yellow-900 rounded shadow-lg" 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.637592087475!2d-111.74420312399124!3d40.3725594714468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d841ef19ffcdd%3A0x24e3de7aefb3dfd2!2s800%20N%20100%20W%2C%20Pleasant%20Grove%2C%20UT%2084062!5e0!3m2!1sen!2sus!4v1693109347635!5m2!1sen!2sus" 
                 width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -281,15 +337,18 @@
             </div>
 
             <iframe 
+                title="Christmas Devotional Watch Location Map" 
                 class="sm:hidden border-8 border-yellow-400 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.543136847737!2d-111.879978!3d40.413911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fdcd772cc79%3A0x79002f1ae05f8eb2!2s2150%20Pointe%20Meadow%20Dr%2C%20Lehi%2C%20UT%2084043!5e0!3m2!1sen!2sus!4v1693604351338!5m2!1sen!2sus" 
                 width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe 
+            <iframe
+                title="Christmas Devotional Watch Location Map" 
                 class="hidden sm:block md:hidden border-8 border-yellow-400 rounded shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.543136847737!2d-111.879978!3d40.413911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fdcd772cc79%3A0x79002f1ae05f8eb2!2s2150%20Pointe%20Meadow%20Dr%2C%20Lehi%2C%20UT%2084043!5e0!3m2!1sen!2sus!4v1693604351338!5m2!1sen!2sus" 
                 width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
             <iframe class="hidden md:block border-8 border-yellow-400 rounded shadow-lg" 
+                title="Christmas Devotional Watch Location Map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.543136847737!2d-111.879978!3d40.413911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fdcd772cc79%3A0x79002f1ae05f8eb2!2s2150%20Pointe%20Meadow%20Dr%2C%20Lehi%2C%20UT%2084043!5e0!3m2!1sen!2sus!4v1693604351338!5m2!1sen!2sus" 
                 width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -301,7 +360,7 @@
     </main>
     <footer class="w-full p-4 bg-cyan-800 flex items-center justify-center flex-col text-cyan-100">
         <nav class="flex items-center justify-between w-full container" role="menu">
-            <div class="container flex flex-col items-start justify-start py-2 md:py-4 mx-auto text-sm md:text-xl lg:text-sm">
+            <div class="container flex flex-col items-start justify-start py-2 md:py-4 mx-auto text-base lg:text-sm space-y-2 sm:space-y-0">
                 <a role="menuitem" class="hover:bg-cyan-900 px-2 py-1 rounded tracking-wide transition duration-300 ease-in-out text-center uppercase" href="./index.html">HOME</a>
                 
                 <a role="menuitem" class="hover:bg-cyan-900 px-2 py-1 rounded tracking-wide transition duration-300 ease-in-out text-center uppercase" href="./dances.html">DANCES</a>
@@ -312,7 +371,7 @@
 
                 <a role="menuitem" class="hover:bg-cyan-900 px-2 py-1 rounded tracking-wide transition duration-300 ease-in-out text-center uppercase" href="./conferences.html">CONFERENCES</a>
             </div>
-            <div class="container flex flex-col items-end justify-end py-2 md:py-4 mx-auto text-sm md:text-xl lg:text-sm">
+            <div class="container flex flex-col items-end justify-end py-2 md:py-4 mx-auto text-base lg:text-sm space-y-2 sm:space-y-0">
             
                 <a role="menuitem" class="bg-cyan-900 px-2 py-1 rounded tracking-wide transition duration-300 ease-in-out text-center uppercase">OTHER ACTIVITIES</a>
 
