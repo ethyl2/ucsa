@@ -55,7 +55,7 @@
         <nav class="container bg-white w-full grid grid-cols-3 gap-1 py-2 md:py-4 mx-auto px-4">
             <a role="menuitem" class="bg-cyan-50 hover:bg-cyan-100 px-2 py-1 rounded tracking-wide transition duration-300 ease-in-out text-center text-sm md:text-2xl lg:text-xl uppercase" href="./index.html">HOME</a>
             
-            <a role="menuitem" class="bg-cyan-200 px-2 py-1 rounded tracking-wide transition duration-300 ease-in-out text-center text-sm md:text-2xl lg:text-xl uppercase" href="./dances.html">DANCES</a>
+            <a role="menuitem" class="bg-cyan-200 px-2 py-1 rounded tracking-wide transition duration-300 ease-in-out text-center text-sm md:text-2xl lg:text-xl uppercase" href="">DANCES</a>
             
             <a role="menuitem" class="bg-cyan-50 hover:bg-cyan-100 px-2 py-1 rounded tracking-wide transition duration-300 ease-in-out text-center text-sm md:text-2xl lg:text-xl uppercase" href="./firesides.html">FIRESIDES</a>
             
@@ -85,17 +85,19 @@
 
     <main class="container mx-auto pt-4 md:pt-8 flex flex-col items-center justify-center space-y-12 pb-24 md:pb-32">
         <section id="details" class="flex flex-col items-center justify-center space-y-6 w-full pt-8 md:pt-12">
-            <h2 class="text-lg md:text-6xl font-bold pb-6 xl:text-7xl">Monthly Dances!</h2>
+            <h2 class="text-2xl sm:text-3xl md:text-6xl font-bold md:pb-6 xl:text-7xl">Monthly Dances!</h2>
             <div class="flex flex-col items-center justify-center space-y-12 w-full">
                 <div class="flex flex-col items-center justify-center space-y-12 overflow-x-auto px-4">
-                    <h3 class="text-lg font-bold md:text-5xl lg:text-2xl xl:text-5xl">1st Friday of Each Month</h3>
-                    <p class="md:text-3xl lg:text-xl">7:30 - 11:30 pm</p>
-                    
-                    <a class="md:text-3xl lg:text-xl hover:text-cyan-600"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://goo.gl/maps/dgEAsf9QiNCxhJeW9"
-                    >481 E Center St, Orem, UT 84097</a>
+                    <div class="flex flex-col items-center justify-center space-y-3 md:space-y-4">
+                        <h3 class="text-lg font-bold md:text-5xl lg:text-2xl xl:text-5xl">1st Friday of Each Month</h3>
+                        <p class="md:text-3xl lg:text-xl">7:30 - 11:30 pm</p>
+                        
+                        <a class="md:text-3xl lg:text-xl hover:text-cyan-600"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://goo.gl/maps/dgEAsf9QiNCxhJeW9"
+                        >481 E Center St, Orem, UT 84097</a>
+                    </div>
                     <ul class="mt-4 list-disc flex flex-col space-y-2 rounded-md p-4 bg-indigo-100 list-inside shadow md:text-3xl lg:text-xl">
                         <li>Dance Instruction 7:30-8:30 pm</li>
                         <li>Dancing 8:30-11:30 pm</li>
@@ -121,13 +123,15 @@
                 <img src="./images/divider.png" alt="divider" class="w-48"/>
 
                 <div class="flex flex-col items-center justify-center space-y-12 pb-4 overflow-x-auto px-4">
-                    <h3 class="text-lg font-bold md:text-5xl lg:text-2xl xl:text-5xl">3rd Friday of Each Month</h3>
-                    <p class="md:text-3xl lg:text-xl">7:30 - 11:30 pm</p>
-                    <a class="md:text-3xl lg:text-xl hover:text-cyan-600"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://goo.gl/maps/qUms1u74eZdb4WCJ9"
-                    >2150 Pointe Meadow Dr, Lehi, UT 84043</a>
+                    <div class="flex flex-col items-center justify-center space-y-3 md:space-y-4">
+                        <h3 class="text-lg font-bold md:text-5xl lg:text-2xl xl:text-5xl">3rd Friday of Each Month</h3>
+                        <p class="md:text-3xl lg:text-xl">7:30 - 11:30 pm</p>
+                        <a class="md:text-3xl lg:text-xl hover:text-cyan-600"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://goo.gl/maps/qUms1u74eZdb4WCJ9"
+                        >2150 Pointe Meadow Dr, Lehi, UT 84043</a>
+                    </div>
                     <ul class="md:text-3xl mt-4 list-disc flex flex-col space-y-2 rounded-md p-4 bg-sky-100 list-inside shadow lg:text-xl">
                         <li>Line Dance Instruction 7:30-8:30 pm</li>
                         <li>Service Project 7:30-9:30 pm</li>
@@ -161,7 +165,7 @@
         <!-- DANCE STANDARDS -->
         <section id="standards" class="flex flex-col items-center justify-center space-y-4 w-full border-t-8 border-cyan-400 pt-8 md:pt-12 px-4">
             <h2 class="text-lg md:text-5xl font-bold lg:text-6xl xl:text-7xl">Dance Standards</h2>
-            <h3 class="text-lg md:text-3xl lg:text-2xl text-center p-4">
+            <h3 class="text-lg md:text-3xl lg:text-2xl text-center pt-2 md:pb-4">
                 <a href="https://www.churchofjesuschrist.org/study/manual/for-the-strength-of-youth/06-body"
                     target="_blank" rel="noopener noreferrer"
                     class="hover:text-cyan-600"
@@ -183,57 +187,27 @@
                 <li>No clothing with holes or torn</li>
                 <li>No extreme or immodest clothing</li>
             </ul>
-            <p class="md:text-3xl lg:text-lg text-center">Dances are for single adults only. All divorces must be final.</p>
+            <p class="md:text-3xl lg:text-lg text-center pt-4">Dances are for single adults only. All divorces must be final.</p>
             <p class="md:text-3xl lg:text-lg text-center">No married couples.</p>
             <p class="md:text-3xl lg:text-lg text-center">We reserve the right to ask anyone who violates these standards to leave the dance.</p>
         </section>
 
         <!-- UPCOMING DANCES -->
-        <section id="upcoming" class="flex flex-col items-center justify-center space-y-12 w-full border-t-8 border-purple-400 pt-8 md:pt-12">
+        <section id="upcoming" class="flex flex-col items-center justify-center space-y-12 w-full border-t-8 border-purple-400 pt-8 md:pt-12 px-4 md:px-0">
             <h2 class="text-2xl md:text-5xl font-bold lg:text-6xl xl:text-7xl">Upcoming Dances</h2>
-            <div class="mx-auto w-full flex flex-col items-center 2xl:items-stretch justify-center space-y-6 md:space-y-12 2xl:flex-row 2xl:space-y-0 2xl:space-x-6 px-4">
-                <!-- REGULAR FLYERS GO HERE -->
-            </div>
 
-            <!-- <img src="./images/divider.png" alt="divider" class="w-48"/> -->
-
-            <!-- OTHER OCT DANCES -->
-            <div class="mx-auto w-full flex flex-col items-center 2xl:items-stretch justify-center space-y-6 md:space-y-12 2xl:flex-row 2xl:space-y-0 2xl:space-x-6 px-4">
-                <img src="./images/payson-oct-dance.jpg" alt="October Payson Dance" class="w-full lg:w-2/3 2xl:w-1/3 shadow-lg rounded" />
-            </div>
-
-            <!-- MAPS TO SANTAQUIN LOCATION -->
-            <a class="md:text-3xl lg:text-xl hover:text-cyan-600"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://maps.app.goo.gl/DDiDFGyRQP8HmQd19"
-            >90 S 200 E, Santaquin, UT 84655</a>
-
-            <iframe 
-                class="sm:hidden border-8 border-cyan-200 rounded shadow-lg"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.7562981508233!2d-111.78316178187815!3d39.97464875993666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da8a11d6c94a5%3A0x42450de64264cda7!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1696014496064!5m2!1sen!2sus" 
-                width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            
-            <iframe 
-                class="hidden sm:block md:hidden border-8 border-cyan-200 rounded shadow-lg"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.7562981508233!2d-111.78316178187815!3d39.97464875993666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da8a11d6c94a5%3A0x42450de64264cda7!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1696014496064!5m2!1sen!2sus" 
-                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <div class="flex flex-col items-center justify-center space-y-3 md:space-y-4">
+                <h3 class="text-lg font-bold md:text-5xl lg:text-2xl">3rd Friday</h3>
         
-            <iframe class="hidden md:block border-8 border-cyan-200 rounded shadow-lg" 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.7562981508233!2d-111.78316178187815!3d39.97464875993666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da8a11d6c94a5%3A0x42450de64264cda7!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1696014496064!5m2!1sen!2sus" 
-                width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-
+                <img src="./images/oct-20-2023-dance.jpg" alt="3rd Friday dance" class="w-full lg:w-2/3 2xl:w-1/3 shadow-lg rounded" />
+            </div>
             <img src="./images/divider.png" alt="divider" class="w-48"/>
 
-            <img src="./images/oct-20-2023-dance.jpg" alt="3rd Friday dance" class="w-full lg:w-2/3 2xl:w-1/3 shadow-lg rounded px-4" />
-
-            <img src="./images/divider.png" alt="divider" class="w-48"/>
-
-            <img src="./images/oct-27-2023-dance.jpg" alt="Halloween Party & Dance" class="w-full lg:w-2/3 2xl:w-1/3 shadow-lg rounded px-4" />
             
+            <div class="flex flex-col items-center justify-center space-y-3 md:space-y-4">
+                <h3 class="text-lg font-bold md:text-5xl lg:text-2xl">Halloween Party & Dance</h3>
+                <img src="./images/oct-27-2023-dance.jpg" alt="Halloween Party & Dance" class="w-full lg:w-2/3 2xl:w-1/3 shadow-lg rounded" />
+            </div>
 
             <!-- MAPS TO LEHI LOCATION -->
             <iframe 
@@ -256,6 +230,13 @@
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.543136847737!2d-111.879978!3d40.413911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fdcd772cc79%3A0x79002f1ae05f8eb2!2s2150%20Pointe%20Meadow%20Dr%2C%20Lehi%2C%20UT%2084043!5e0!3m2!1sen!2sus!4v1693604351338!5m2!1sen!2sus" 
                 width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
+            
+            <img src="./images/divider.png" alt="divider" class="w-48"/>
+
+            <div class="flex flex-col items-center justify-center space-y-3 md:space-y-4">
+                <h3 class="text-lg font-bold md:text-5xl lg:text-2xl">1st Friday Dance</h3>
+                <img src="./images/dance-nov-3-2023.jpg" alt="Nov 3 UCSA dance flyer" class="w-full lg:w-2/3 2xl:w-1/3 shadow-lg rounded" />
+            </div>
         </section>
 
         <section id="past" class="flex flex-col items-center justify-center space-y-6 w-full border-t-8 border-cyan-700 pt-8 md:pt-12 px-4">
